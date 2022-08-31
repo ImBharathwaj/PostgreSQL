@@ -32,7 +32,7 @@ INSERT INTO movies (title, release_year, genre, main_character, imdb, tickets_st
 ('The Fast and the Furious', '2001', 'action', 'Brian O\"Connor', 'tt0232500', 40),
 ('The Incredible Hulk', '2008', 'action', 'Bruce Banner', 'tt0800080', 23),
 ('World War Z', '2013', 'horror', 'Gerry Lane', 'tt0816711', 0);
-
+-- This is just a comment for the day
 
 CREATE TABLE IF NOT EXISTS heroes (id int(10) NOT NULL AUTO_INCREMENT,login varchar(100) DEFAULT NULL,password varchar(100) DEFAULT NULL,secret varchar(100) DEFAULT NULL,
 PRIMARY KEY (id)) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
